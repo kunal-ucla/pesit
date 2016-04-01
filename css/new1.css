@@ -7,7 +7,8 @@ div.img {
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    height:300px;width:300px;
+    height:100%;
+    width:100%;
     background-size:100%;
     background-position: center;
 }
@@ -25,7 +26,8 @@ div.inner-shit{
     overflow: hidden;
     text-align: center;
     font-size: xx-large;
-    height: 300px; width: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 div.inner-shit:hover{
@@ -41,7 +43,7 @@ div.desc {
     border-bottom: 1px solid #ccc;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    width: 300px;
+    width: 100%;
 }
 
 div.inner-shit > a{
@@ -62,19 +64,40 @@ a:hover, a:visited, a:link, a:active{
 
 .responsive {
     padding: 0 6px;
-    float: left;
-    width: 25%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 820px){
     .responsive {
-        width:50%;
-        margin: 6px 0;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 60px;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (min-width: 820px) and (max-width: 1015px){
     .responsive {
-        width: 100%;
+        width: 200px;
+        height: 200px;
+        margin: 6px 0;
+    }
+    div.inner-shit{
+        font-size:medium;
+    }
+}
+
+@media only screen and (min-width: 1015px) and (max-width: 1212px){
+    .responsive {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 1212px){
+    .responsive {
+        width: 300px;
+        height: 300px;
     }
 }
