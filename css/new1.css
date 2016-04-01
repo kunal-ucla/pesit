@@ -1,0 +1,80 @@
+
+div.img {
+    display: table;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    height:300px;width:300px;
+    background-size:100%;
+    background-position: center;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    background-size: 110%;
+    transition: 0.4s ease;
+}
+
+div.inner-shit{
+    display: table-cell;
+    vertical-align: middle;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    font-size: xx-large;
+    height: 300px; width: 300px;
+}
+
+div.inner-shit:hover{
+    opacity: 100;
+    background-color: rgba(240, 255, 249, 0.81);
+}
+
+div.desc {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 300px;
+}
+
+div.inner-shit > a{
+    color:black;
+}
+
+div.inner-shit > a:hover{
+    color: mediumblue;
+}
+
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width:50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}

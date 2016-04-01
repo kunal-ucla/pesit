@@ -1,0 +1,11 @@
+.nav{}
+.nav-pills{}
+.nav-justified{}
+.active{}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{border-radius: 0;}
+.nav>li>a:focus, .nav>li>a:hover{
+    border-radius: 0;
+    background-color: #d9edf7;
+    color: #31708f;
+}
+.nav>li>a{}
