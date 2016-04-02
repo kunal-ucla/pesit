@@ -11,6 +11,7 @@ div.img {
     width:100%;
     background-size:100%;
     background-position: center;
+    transition: 0.4s ease;
 }
 
 div.img:hover {
@@ -28,11 +29,13 @@ div.inner-shit{
     font-size: xx-large;
     height: 100%;
     width: 100%;
+    transition: 0.4s ease;
 }
 
 div.inner-shit:hover{
     opacity: 100;
     background-color: rgba(240, 255, 249, 0.81);
+    transition: 0.4s ease;
 }
 
 div.desc {
