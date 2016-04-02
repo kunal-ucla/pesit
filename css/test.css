@@ -39,3 +39,13 @@
     margin-top: -5px;
     min-height: 500px;
 }
+.subject{
+	float: left;
+	height: 100px;
+    width: 150px;
+    margin: 50px;
+    border: 1px solid #31708f;
+    line-height: 100px;
+    font-size: x-large;
+    background-color: #d9edf7;
+}
