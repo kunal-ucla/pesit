@@ -40,12 +40,16 @@
     min-height: 500px;
 }
 .subject{
-	float: left;
+	display: inline-block;
+	padding: 30px;
 	height: 100px;
-    width: 150px;
-    margin: 50px;
+    width: auto;
+    margin: 10px;
+    margin-top: 50px;
     border: 1px solid #31708f;
-    line-height: 100px;
     font-size: x-large;
     background-color: #d9edf7;
+}
+#tab2 > .subject{
+	display: block;
 }
