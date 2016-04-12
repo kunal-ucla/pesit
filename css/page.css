@@ -123,7 +123,7 @@ body {
 .subject-info{
 	text-align: center;
 	font-size: large;
-    background-color: white;
+    background-color: aliceblue;
     line-height: 30px;
     padding: 10px;
     color: #337ab7;
@@ -156,7 +156,7 @@ body {
 }
 .subject {
     margin: 15px;
-    background-color: antiquewhite;
+    background-color: aliceblue;
 }
 .mask{
 	position: absolute;
